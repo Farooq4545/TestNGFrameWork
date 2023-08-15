@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite">
+  <test thread-count="5" name="SanityTest">
+    <classes>
+      <class name="com.telus.testannaotation.RegisterDemo2"/> 
+      <class name="com.telus.testannaotation.BankingApplAssertValidation3"/>
+      <class name="com.telus.testannaotation.BankingApplHardDepe4"/>
+      <class name="com.telus.testannaotation.BankingApplSoftDepe5"/>
+      <class name="com.telus.testannaotation.BankingApplDepeOnMultipuleMethods6"/>
+      <class name="com.telus.methodandclass.ScreenNavigationMethod7"/>
+       <class name="com.telus.methodandclass.ScreenNavigationClass8"/>
+     
+    </classes>
+  </test> <!-- SanityTest -->
+</suite> <!-- AutomationSuite -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [AutomationSuite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SanityTest(failed)(failed)">
+    <classes>
+      <class name="com.telus.testannaotation.BankingApplSoftDepe5">
+        <methods>
+          <include name="checkSavingAccountBalnce"/>
+          <include name="launchApplication"/>
+          <include name="checkCurrentAccountBalnce"/>
+          <include name="loggOff"/>
+          <include name="loginUser"/>
+        </methods>
+      </class> <!-- com.telus.testannaotation.BankingApplSoftDepe5 -->
+      <class name="com.telus.testannaotation.BankingApplHardDepe4">
+        <methods>
+          <include name="checkSavingAccountBalnce"/>
+          <include name="loggOff"/>
+          <include name="launchApplication"/>
+          <include name="checkCurrentAccountBalnce"/>
+          <include name="closeApplication"/>
+          <include name="loginUser"/>
+        </methods>
+      </class> <!-- com.telus.testannaotation.BankingApplHardDepe4 -->
+    </classes>
+  </test> <!-- SanityTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [AutomationSuite]] -->
